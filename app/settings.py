@@ -28,7 +28,7 @@ DEBUG = False
 ALLOWED_HOSTS = [""]  # SSRF
 SECRET_KEY = os.environ.get("SECRET_KEY")
 API_KEY = os.environ.get("API_KEY")
-
+ACCESS_KEY= "ROHXMPGWQLAHJI92NJSD"
 # Application definition
 
 INSTALLED_APPS = [
