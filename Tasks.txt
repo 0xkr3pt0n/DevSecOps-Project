@@ -1,0 +1,9 @@
+Task: 
+1 - Find SQL injection
+2 - Find Reflected XSS
+3 - Remote code execution (RCE)
+4 - IDOR (BOLA)
+
+Does the system contain :
+1 - SSRF
+2 - Broken access control

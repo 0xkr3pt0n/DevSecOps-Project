@@ -1,0 +1,35 @@
+{% extends "university/base.html" %}
+{% block content %}
+<h2>🔎 Search Students</h2>
+<div class="card mb-4">
+    <div class="card-body">
+        <form method="get" class="row g-3">
+            <div class="col-auto flex-grow-1">
+                <input type="text" name="q" class="form-control" placeholder="Enter student name..." value="{{ query }}">
+            </div>
+            <div class="col-auto">
+                <button type="submit" class="btn btn-primary">Search</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+{% if query %}
+    <h3>Results for "{{ query }}"</h3>   <!-- XSS -->
+    <div class="row">
+        {% for row in results %}
+        <div class="col-md-6 mb-3">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">{{ row.1 }}</h5>
+                    <p class="card-text">{{ row.2 }}</p>
+                    <small class="text-muted">ID: {{ row.0 }}</small>
+                </div>
+            </div>
+        </div>
+        {% empty %}
+        <div class="alert alert-warning">No matching students.</div>
+        {% endfor %}
+    </div>
+{% endif %}
+{% endblock %}

@@ -1,0 +1,21 @@
+{% extends "university/base.html" %}
+{% block content %}
+<h2>📖 Course Catalog</h2>
+<div class="row">
+    {% for course in courses %}
+    <div class="col-md-6 col-lg-4 mb-3">
+        <div class="card h-100 card-shadow">
+            <div class="card-body">
+                <h5 class="card-title">{{ course.code }} – {{ course.name }}</h5>
+                <p class="card-text">Credits: {{ course.credits }}</p>
+                <p class="card-text"><strong>Instructor:</strong> {{ course.instructor }}</p>
+            </div>
+        </div>
+    </div>
+    {% empty %}
+    <div class="col-12">
+        <div class="alert alert-info">No courses available.</div>
+    </div>
+    {% endfor %}
+</div>
+{% endblock %}
