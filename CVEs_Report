@@ -1,0 +1,1215 @@
+
+
+## Overview
+
+                   │                   Analyzed Image                   
+───────────────────┼────────────────────────────────────────────────────
+ Target            │  univ_app:insecure                                 
+   digest          │  e680ce4dba3d                                      
+   platform        │ linux/arm64                                        
+   provenance      │ https://github.com/0xkr3pt0n/DevSecOps-Project.git 
+                   │  https://github.com/0xkr3pt0n/DevSecOps-Project/blob/042dae8dc2a8607fb70c2d71ba818638ae1aeb6e          
+   vulnerabilities │   20C    64H    56M    59L     3?                  
+   size            │ 84 MB                                              
+   packages        │ 162                                                
+
+
+## Packages and Vulnerabilities
+
+   9C    11H     2M     3L  expat 2.2.10-2
+pkg:deb/debian/expat@2.2.10-2?os_distro=bullseye&os_name=debian&os_version=11
+
+    ✗ CRITICAL CVE-2024-45492
+      https://scout.docker.com/v/CVE-2024-45492?s=debian&n=expat&ns=debian&t=deb&osn=debian&osv=11&vr=%3C2.2.10-2%2Bdeb11u6
+      Affected range : <2.2.10-2+deb11u6 
+      Fixed version  : 2.2.10-2+deb11u6  
+    
+    ✗ CRITICAL CVE-2024-45491
+      https://scout.docker.com/v/CVE-2024-45491?s=debian&n=expat&ns=debian&t=deb&osn=debian&osv=11&vr=%3C2.2.10-2%2Bdeb11u6
+      Affected range : <2.2.10-2+deb11u6 
+      Fixed version  : 2.2.10-2+deb11u6  
+    
+    ✗ CRITICAL CVE-2022-25315
+      https://scout.docker.com/v/CVE-2022-25315?s=debian&n=expat&ns=debian&t=deb&osn=debian&osv=11&vr=%3C2.2.10-2%2Bdeb11u2
+      Affected range : <2.2.10-2+deb11u2 
+      Fixed version  : 2.2.10-2+deb11u2  
+    
+    ✗ CRITICAL CVE-2022-25236
+      https://scout.docker.com/v/CVE-2022-25236?s=debian&n=expat&ns=debian&t=deb&osn=debian&osv=11&vr=%3C2.2.10-2%2Bdeb11u2
+      Affected range : <2.2.10-2+deb11u2 
+      Fixed version  : 2.2.10-2+deb11u2  
+    
+    ✗ CRITICAL CVE-2022-25235
+      https://scout.docker.com/v/CVE-2022-25235?s=debian&n=expat&ns=debian&t=deb&osn=debian&osv=11&vr=%3C2.2.10-2%2Bdeb11u2
+      Affected range : <2.2.10-2+deb11u2 
+      Fixed version  : 2.2.10-2+deb11u2  
+    
+    ✗ CRITICAL CVE-2022-23852
+      https://scout.docker.com/v/CVE-2022-23852?s=debian&n=expat&ns=debian&t=deb&osn=debian&osv=11&vr=%3C2.2.10-2%2Bdeb11u1
+      Affected range : <2.2.10-2+deb11u1 
+      Fixed version  : 2.2.10-2+deb11u1  
+    
+    ✗ CRITICAL CVE-2022-22824
+      https://scout.docker.com/v/CVE-2022-22824?s=debian&n=expat&ns=debian&t=deb&osn=debian&osv=11&vr=%3C2.2.10-2%2Bdeb11u1
+      Affected range : <2.2.10-2+deb11u1 
+      Fixed version  : 2.2.10-2+deb11u1  
+    
+    ✗ CRITICAL CVE-2022-22823
+      https://scout.docker.com/v/CVE-2022-22823?s=debian&n=expat&ns=debian&t=deb&osn=debian&osv=11&vr=%3C2.2.10-2%2Bdeb11u1
+      Affected range : <2.2.10-2+deb11u1 
+      Fixed version  : 2.2.10-2+deb11u1  
+    
+    ✗ CRITICAL CVE-2022-22822
+      https://scout.docker.com/v/CVE-2022-22822?s=debian&n=expat&ns=debian&t=deb&osn=debian&osv=11&vr=%3C2.2.10-2%2Bdeb11u1
+      Affected range : <2.2.10-2+deb11u1 
+      Fixed version  : 2.2.10-2+deb11u1  
+    
+    ✗ HIGH CVE-2022-22827
+      https://scout.docker.com/v/CVE-2022-22827?s=debian&n=expat&ns=debian&t=deb&osn=debian&osv=11&vr=%3C2.2.10-2%2Bdeb11u1
+      Affected range : <2.2.10-2+deb11u1 
+      Fixed version  : 2.2.10-2+deb11u1  
+    
+    ✗ HIGH CVE-2022-22826
+      https://scout.docker.com/v/CVE-2022-22826?s=debian&n=expat&ns=debian&t=deb&osn=debian&osv=11&vr=%3C2.2.10-2%2Bdeb11u1
+      Affected range : <2.2.10-2+deb11u1 
+      Fixed version  : 2.2.10-2+deb11u1  
+    
+    ✗ HIGH CVE-2022-22825
+      https://scout.docker.com/v/CVE-2022-22825?s=debian&n=expat&ns=debian&t=deb&osn=debian&osv=11&vr=%3C2.2.10-2%2Bdeb11u1
+      Affected range : <2.2.10-2+deb11u1 
+      Fixed version  : 2.2.10-2+deb11u1  
+    
+    ✗ HIGH CVE-2021-45960
+      https://scout.docker.com/v/CVE-2021-45960?s=debian&n=expat&ns=debian&t=deb&osn=debian&osv=11&vr=%3C2.2.10-2%2Bdeb11u1
+      Affected range : <2.2.10-2+deb11u1 
+      Fixed version  : 2.2.10-2+deb11u1  
+    
+    ✗ HIGH CVE-2022-40674
+      https://scout.docker.com/v/CVE-2022-40674?s=debian&n=expat&ns=debian&t=deb&osn=debian&osv=11&vr=%3C2.2.10-2%2Bdeb11u4
+      Affected range : <2.2.10-2+deb11u4 
+      Fixed version  : 2.2.10-2+deb11u4  
+    
+    ✗ HIGH CVE-2021-46143
+      https://scout.docker.com/v/CVE-2021-46143?s=debian&n=expat&ns=debian&t=deb&osn=debian&osv=11&vr=%3C2.2.10-2%2Bdeb11u1
+      Affected range : <2.2.10-2+deb11u1 
+      Fixed version  : 2.2.10-2+deb11u1  
+    
+    ✗ HIGH CVE-2024-45490
+      https://scout.docker.com/v/CVE-2024-45490?s=debian&n=expat&ns=debian&t=deb&osn=debian&osv=11&vr=%3C2.2.10-2%2Bdeb11u6
+      Affected range : <2.2.10-2+deb11u6 
+      Fixed version  : 2.2.10-2+deb11u6  
+    
+    ✗ HIGH CVE-2023-52425
+      https://scout.docker.com/v/CVE-2023-52425?s=debian&n=expat&ns=debian&t=deb&osn=debian&osv=11&vr=%3C2.2.10-2%2Bdeb11u6
+      Affected range : <2.2.10-2+deb11u6 
+      Fixed version  : 2.2.10-2+deb11u6  
+    
+    ✗ HIGH CVE-2022-43680
+      https://scout.docker.com/v/CVE-2022-43680?s=debian&n=expat&ns=debian&t=deb&osn=debian&osv=11&vr=%3C2.2.10-2%2Bdeb11u5
+      Affected range : <2.2.10-2+deb11u5 
+      Fixed version  : 2.2.10-2+deb11u5  
+    
+    ✗ HIGH CVE-2022-25314
+      https://scout.docker.com/v/CVE-2022-25314?s=debian&n=expat&ns=debian&t=deb&osn=debian&osv=11&vr=%3C2.2.10-2%2Bdeb11u2
+      Affected range : <2.2.10-2+deb11u2 
+      Fixed version  : 2.2.10-2+deb11u2  
+    
+    ✗ HIGH CVE-2022-23990
+      https://scout.docker.com/v/CVE-2022-23990?s=debian&n=expat&ns=debian&t=deb&osn=debian&osv=11&vr=%3C2.2.10-2%2Bdeb11u1
+      Affected range : <2.2.10-2+deb11u1 
+      Fixed version  : 2.2.10-2+deb11u1  
+    
+    ✗ MEDIUM CVE-2022-25313
+      https://scout.docker.com/v/CVE-2022-25313?s=debian&n=expat&ns=debian&t=deb&osn=debian&osv=11&vr=%3C2.2.10-2%2Bdeb11u2
+      Affected range : <2.2.10-2+deb11u2 
+      Fixed version  : 2.2.10-2+deb11u2  
+    
+    ✗ MEDIUM CVE-2024-50602
+      https://scout.docker.com/v/CVE-2024-50602?s=debian&n=expat&ns=debian&t=deb&osn=debian&osv=11&vr=%3C2.2.10-2%2Bdeb11u7
+      Affected range : <2.2.10-2+deb11u7 
+      Fixed version  : 2.2.10-2+deb11u7  
+    
+    ✗ LOW CVE-2024-28757
+      https://scout.docker.com/v/CVE-2024-28757?s=debian&n=expat&ns=debian&t=deb&osn=debian&osv=11&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+    ✗ LOW CVE-2023-52426
+      https://scout.docker.com/v/CVE-2023-52426?s=debian&n=expat&ns=debian&t=deb&osn=debian&osv=11&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+    ✗ LOW CVE-2013-0340
+      https://scout.docker.com/v/CVE-2013-0340?s=debian&n=expat&ns=debian&t=deb&osn=debian&osv=11&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+
+   3C     8H     2M     8L  glibc 2.31-13
+pkg:deb/debian/glibc@2.31-13?os_distro=bullseye&os_name=debian&os_version=11
+
+    ✗ CRITICAL CVE-2022-23219
+      https://scout.docker.com/v/CVE-2022-23219?s=debian&n=glibc&ns=debian&t=deb&osn=debian&osv=11&vr=%3C2.31-13%2Bdeb11u3
+      Affected range : <2.31-13+deb11u3 
+      Fixed version  : 2.31-13+deb11u3  
+    
+    ✗ CRITICAL CVE-2022-23218
+      https://scout.docker.com/v/CVE-2022-23218?s=debian&n=glibc&ns=debian&t=deb&osn=debian&osv=11&vr=%3C2.31-13%2Bdeb11u3
+      Affected range : <2.31-13+deb11u3 
+      Fixed version  : 2.31-13+deb11u3  
+    
+    ✗ CRITICAL CVE-2021-33574
+      https://scout.docker.com/v/CVE-2021-33574?s=debian&n=glibc&ns=debian&t=deb&osn=debian&osv=11&vr=%3C2.31-13%2Bdeb11u3
+      Affected range : <2.31-13+deb11u3 
+      Fixed version  : 2.31-13+deb11u3  
+    
+    ✗ HIGH CVE-2024-33599
+      https://scout.docker.com/v/CVE-2024-33599?s=debian&n=glibc&ns=debian&t=deb&osn=debian&osv=11&vr=%3C2.31-13%2Bdeb11u10
+      Affected range : <2.31-13+deb11u10 
+      Fixed version  : 2.31-13+deb11u10  
+    
+    ✗ HIGH CVE-2025-4802
+      https://scout.docker.com/v/CVE-2025-4802?s=debian&n=glibc&ns=debian&t=deb&osn=debian&osv=11&vr=%3C2.31-13%2Bdeb11u13
+      Affected range : <2.31-13+deb11u13 
+      Fixed version  : 2.31-13+deb11u13  
+    
+    ✗ HIGH CVE-2023-4911  CISA KEV 
+      https://scout.docker.com/v/CVE-2023-4911?s=debian&n=glibc&ns=debian&t=deb&osn=debian&osv=11&vr=%3C2.31-13%2Bdeb11u7
+      Affected range : <2.31-13+deb11u7 
+      Fixed version  : 2.31-13+deb11u7  
+    
+    ✗ HIGH CVE-2021-3999
+      https://scout.docker.com/v/CVE-2021-3999?s=debian&n=glibc&ns=debian&t=deb&osn=debian&osv=11&vr=%3C2.31-13%2Bdeb11u4
+      Affected range : <2.31-13+deb11u4 
+      Fixed version  : 2.31-13+deb11u4  
+    
+    ✗ HIGH CVE-2026-4046
+      https://scout.docker.com/v/CVE-2026-4046?s=debian&n=glibc&ns=debian&t=deb&osn=debian&osv=11&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+    ✗ HIGH CVE-2024-33602
+      https://scout.docker.com/v/CVE-2024-33602?s=debian&n=glibc&ns=debian&t=deb&osn=debian&osv=11&vr=%3C2.31-13%2Bdeb11u10
+      Affected range : <2.31-13+deb11u10 
+      Fixed version  : 2.31-13+deb11u10  
+    
+    ✗ HIGH CVE-2024-33601
+      https://scout.docker.com/v/CVE-2024-33601?s=debian&n=glibc&ns=debian&t=deb&osn=debian&osv=11&vr=%3C2.31-13%2Bdeb11u10
+      Affected range : <2.31-13+deb11u10 
+      Fixed version  : 2.31-13+deb11u10  
+    
+    ✗ HIGH CVE-2024-2961
+      https://scout.docker.com/v/CVE-2024-2961?s=debian&n=glibc&ns=debian&t=deb&osn=debian&osv=11&vr=%3C2.31-13%2Bdeb11u9
+      Affected range : <2.31-13+deb11u9 
+      Fixed version  : 2.31-13+deb11u9  
+    
+    ✗ MEDIUM CVE-2025-0395
+      https://scout.docker.com/v/CVE-2025-0395?s=debian&n=glibc&ns=debian&t=deb&osn=debian&osv=11&vr=%3C2.31-13%2Bdeb11u12
+      Affected range : <2.31-13+deb11u12 
+      Fixed version  : 2.31-13+deb11u12  
+    
+    ✗ MEDIUM CVE-2024-33600
+      https://scout.docker.com/v/CVE-2024-33600?s=debian&n=glibc&ns=debian&t=deb&osn=debian&osv=11&vr=%3C2.31-13%2Bdeb11u10
+      Affected range : <2.31-13+deb11u10 
+      Fixed version  : 2.31-13+deb11u10  
+    
+    ✗ LOW CVE-2021-43396
+      https://scout.docker.com/v/CVE-2021-43396?s=debian&n=glibc&ns=debian&t=deb&osn=debian&osv=11&vr=%3C2.31-13%2Bdeb11u3
+      Affected range : <2.31-13+deb11u3 
+      Fixed version  : 2.31-13+deb11u3  
+    
+    ✗ LOW CVE-2019-9192
+      https://scout.docker.com/v/CVE-2019-9192?s=debian&n=glibc&ns=debian&t=deb&osn=debian&osv=11&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+    ✗ LOW CVE-2019-1010025
+      https://scout.docker.com/v/CVE-2019-1010025?s=debian&n=glibc&ns=debian&t=deb&osn=debian&osv=11&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+    ✗ LOW CVE-2019-1010024
+      https://scout.docker.com/v/CVE-2019-1010024?s=debian&n=glibc&ns=debian&t=deb&osn=debian&osv=11&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+    ✗ LOW CVE-2019-1010023
+      https://scout.docker.com/v/CVE-2019-1010023?s=debian&n=glibc&ns=debian&t=deb&osn=debian&osv=11&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+    ✗ LOW CVE-2019-1010022
+      https://scout.docker.com/v/CVE-2019-1010022?s=debian&n=glibc&ns=debian&t=deb&osn=debian&osv=11&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+    ✗ LOW CVE-2018-20796
+      https://scout.docker.com/v/CVE-2018-20796?s=debian&n=glibc&ns=debian&t=deb&osn=debian&osv=11&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+    ✗ LOW CVE-2010-4756
+      https://scout.docker.com/v/CVE-2010-4756?s=debian&n=glibc&ns=debian&t=deb&osn=debian&osv=11&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+
+   2C    14H    19M     1L     2?  openssl 1.1.1k-1
+pkg:deb/debian/openssl@1.1.1k-1?os_distro=bullseye&os_name=debian&os_version=11
+
+    ✗ CRITICAL CVE-2021-3711
+      https://scout.docker.com/v/CVE-2021-3711?s=debian&n=openssl&ns=debian&t=deb&osn=debian&osv=11&vr=%3C1.1.1k-1%2Bdeb11u1
+      Affected range : <1.1.1k-1+deb11u1 
+      Fixed version  : 1.1.1k-1+deb11u1  
+    
+    ✗ CRITICAL CVE-2024-5535
+      https://scout.docker.com/v/CVE-2024-5535?s=debian&n=openssl&ns=debian&t=deb&osn=debian&osv=11&vr=%3C1.1.1w-0%2Bdeb11u2
+      Affected range : <1.1.1w-0+deb11u2 
+      Fixed version  : 1.1.1w-0+deb11u2  
+    
+    ✗ HIGH CVE-2026-28390
+      https://scout.docker.com/v/CVE-2026-28390?s=debian&n=openssl&ns=debian&t=deb&osn=debian&osv=11&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+    ✗ HIGH CVE-2026-28389
+      https://scout.docker.com/v/CVE-2026-28389?s=debian&n=openssl&ns=debian&t=deb&osn=debian&osv=11&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+    ✗ HIGH CVE-2026-28388
+      https://scout.docker.com/v/CVE-2026-28388?s=debian&n=openssl&ns=debian&t=deb&osn=debian&osv=11&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+    ✗ HIGH CVE-2025-9230
+      https://scout.docker.com/v/CVE-2025-9230?s=debian&n=openssl&ns=debian&t=deb&osn=debian&osv=11&vr=%3C1.1.1w-0%2Bdeb11u4
+      Affected range : <1.1.1w-0+deb11u4 
+      Fixed version  : 1.1.1w-0+deb11u4  
+    
+    ✗ HIGH CVE-2025-69421
+      https://scout.docker.com/v/CVE-2025-69421?s=debian&n=openssl&ns=debian&t=deb&osn=debian&osv=11&vr=%3C1.1.1w-0%2Bdeb11u5
+      Affected range : <1.1.1w-0+deb11u5 
+      Fixed version  : 1.1.1w-0+deb11u5  
+    
+    ✗ HIGH CVE-2025-69420
+      https://scout.docker.com/v/CVE-2025-69420?s=debian&n=openssl&ns=debian&t=deb&osn=debian&osv=11&vr=%3C1.1.1w-0%2Bdeb11u5
+      Affected range : <1.1.1w-0+deb11u5 
+      Fixed version  : 1.1.1w-0+deb11u5  
+    
+    ✗ HIGH CVE-2024-4741
+      https://scout.docker.com/v/CVE-2024-4741?s=debian&n=openssl&ns=debian&t=deb&osn=debian&osv=11&vr=%3C1.1.1w-0%2Bdeb11u2
+      Affected range : <1.1.1w-0+deb11u2 
+      Fixed version  : 1.1.1w-0+deb11u2  
+    
+    ✗ HIGH CVE-2023-0464
+      https://scout.docker.com/v/CVE-2023-0464?s=debian&n=openssl&ns=debian&t=deb&osn=debian&osv=11&vr=%3C1.1.1n-0%2Bdeb11u5
+      Affected range : <1.1.1n-0+deb11u5 
+      Fixed version  : 1.1.1n-0+deb11u5  
+    
+    ✗ HIGH CVE-2022-0778
+      https://scout.docker.com/v/CVE-2022-0778?s=debian&n=openssl&ns=debian&t=deb&osn=debian&osv=11&vr=%3C1.1.1k-1%2Bdeb11u2
+      Affected range : <1.1.1k-1+deb11u2 
+      Fixed version  : 1.1.1k-1+deb11u2  
+    
+    ✗ HIGH CVE-2025-69419
+      https://scout.docker.com/v/CVE-2025-69419?s=debian&n=openssl&ns=debian&t=deb&osn=debian&osv=11&vr=%3C1.1.1w-0%2Bdeb11u5
+      Affected range : <1.1.1w-0+deb11u5 
+      Fixed version  : 1.1.1w-0+deb11u5  
+    
+    ✗ HIGH CVE-2021-3712
+      https://scout.docker.com/v/CVE-2021-3712?s=debian&n=openssl&ns=debian&t=deb&osn=debian&osv=11&vr=%3C1.1.1k-1%2Bdeb11u1
+      Affected range : <1.1.1k-1+deb11u1 
+      Fixed version  : 1.1.1k-1+deb11u1  
+    
+    ✗ HIGH CVE-2022-2068
+      https://scout.docker.com/v/CVE-2022-2068?s=debian&n=openssl&ns=debian&t=deb&osn=debian&osv=11&vr=%3C1.1.1n-0%2Bdeb11u3
+      Affected range : <1.1.1n-0+deb11u3 
+      Fixed version  : 1.1.1n-0+deb11u3  
+    
+    ✗ HIGH CVE-2022-1292
+      https://scout.docker.com/v/CVE-2022-1292?s=debian&n=openssl&ns=debian&t=deb&osn=debian&osv=11&vr=%3C1.1.1n-0%2Bdeb11u2
+      Affected range : <1.1.1n-0+deb11u2 
+      Fixed version  : 1.1.1n-0+deb11u2  
+    
+    ✗ HIGH CVE-2023-0286
+      https://scout.docker.com/v/CVE-2023-0286?s=debian&n=openssl&ns=debian&t=deb&osn=debian&osv=11&vr=%3C1.1.1n-0%2Bdeb11u4
+      Affected range : <1.1.1n-0+deb11u4 
+      Fixed version  : 1.1.1n-0+deb11u4  
+    
+    ✗ MEDIUM CVE-2023-2650
+      https://scout.docker.com/v/CVE-2023-2650?s=debian&n=openssl&ns=debian&t=deb&osn=debian&osv=11&vr=%3C1.1.1n-0%2Bdeb11u5
+      Affected range : <1.1.1n-0+deb11u5 
+      Fixed version  : 1.1.1n-0+deb11u5  
+    
+    ✗ MEDIUM CVE-2024-2511
+      https://scout.docker.com/v/CVE-2024-2511?s=debian&n=openssl&ns=debian&t=deb&osn=debian&osv=11&vr=%3C1.1.1w-0%2Bdeb11u2
+      Affected range : <1.1.1w-0+deb11u2 
+      Fixed version  : 1.1.1w-0+deb11u2  
+    
+    ✗ MEDIUM CVE-2021-4160
+      https://scout.docker.com/v/CVE-2021-4160?s=debian&n=openssl&ns=debian&t=deb&osn=debian&osv=11&vr=%3C1.1.1k-1%2Bdeb11u2
+      Affected range : <1.1.1k-1+deb11u2 
+      Fixed version  : 1.1.1k-1+deb11u2  
+    
+    ✗ MEDIUM CVE-2026-22795
+      https://scout.docker.com/v/CVE-2026-22795?s=debian&n=openssl&ns=debian&t=deb&osn=debian&osv=11&vr=%3C1.1.1w-0%2Bdeb11u5
+      Affected range : <1.1.1w-0+deb11u5 
+      Fixed version  : 1.1.1w-0+deb11u5  
+    
+    ✗ MEDIUM CVE-2024-0727
+      https://scout.docker.com/v/CVE-2024-0727?s=debian&n=openssl&ns=debian&t=deb&osn=debian&osv=11&vr=%3C1.1.1w-0%2Bdeb11u2
+      Affected range : <1.1.1w-0+deb11u2 
+      Fixed version  : 1.1.1w-0+deb11u2  
+    
+    ✗ MEDIUM CVE-2026-22796
+      https://scout.docker.com/v/CVE-2026-22796?s=debian&n=openssl&ns=debian&t=deb&osn=debian&osv=11&vr=%3C1.1.1w-0%2Bdeb11u5
+      Affected range : <1.1.1w-0+deb11u5 
+      Fixed version  : 1.1.1w-0+deb11u5  
+    
+    ✗ MEDIUM CVE-2023-5678
+      https://scout.docker.com/v/CVE-2023-5678?s=debian&n=openssl&ns=debian&t=deb&osn=debian&osv=11&vr=%3C1.1.1w-0%2Bdeb11u2
+      Affected range : <1.1.1w-0+deb11u2 
+      Fixed version  : 1.1.1w-0+deb11u2  
+    
+    ✗ MEDIUM CVE-2023-3817
+      https://scout.docker.com/v/CVE-2023-3817?s=debian&n=openssl&ns=debian&t=deb&osn=debian&osv=11&vr=%3C1.1.1v-0%7Edeb11u1
+      Affected range : <1.1.1v-0~deb11u1 
+      Fixed version  : 1.1.1v-0~deb11u1  
+    
+    ✗ MEDIUM CVE-2023-3446
+      https://scout.docker.com/v/CVE-2023-3446?s=debian&n=openssl&ns=debian&t=deb&osn=debian&osv=11&vr=%3C1.1.1v-0%7Edeb11u1
+      Affected range : <1.1.1v-0~deb11u1 
+      Fixed version  : 1.1.1v-0~deb11u1  
+    
+    ✗ MEDIUM CVE-2023-0466
+      https://scout.docker.com/v/CVE-2023-0466?s=debian&n=openssl&ns=debian&t=deb&osn=debian&osv=11&vr=%3C1.1.1n-0%2Bdeb11u5
+      Affected range : <1.1.1n-0+deb11u5 
+      Fixed version  : 1.1.1n-0+deb11u5  
+    
+    ✗ MEDIUM CVE-2023-0465
+      https://scout.docker.com/v/CVE-2023-0465?s=debian&n=openssl&ns=debian&t=deb&osn=debian&osv=11&vr=%3C1.1.1n-0%2Bdeb11u5
+      Affected range : <1.1.1n-0+deb11u5 
+      Fixed version  : 1.1.1n-0+deb11u5  
+    
+    ✗ MEDIUM CVE-2022-2097
+      https://scout.docker.com/v/CVE-2022-2097?s=debian&n=openssl&ns=debian&t=deb&osn=debian&osv=11&vr=%3C1.1.1n-0%2Bdeb11u4
+      Affected range : <1.1.1n-0+deb11u4 
+      Fixed version  : 1.1.1n-0+deb11u4  
+    
+    ✗ MEDIUM CVE-2025-68160
+      https://scout.docker.com/v/CVE-2025-68160?s=debian&n=openssl&ns=debian&t=deb&osn=debian&osv=11&vr=%3C1.1.1w-0%2Bdeb11u5
+      Affected range : <1.1.1w-0+deb11u5 
+      Fixed version  : 1.1.1w-0+deb11u5  
+    
+    ✗ MEDIUM CVE-2024-9143
+      https://scout.docker.com/v/CVE-2024-9143?s=debian&n=openssl&ns=debian&t=deb&osn=debian&osv=11&vr=%3C1.1.1w-0%2Bdeb11u2
+      Affected range : <1.1.1w-0+deb11u2 
+      Fixed version  : 1.1.1w-0+deb11u2  
+    
+    ✗ MEDIUM CVE-2024-13176
+      https://scout.docker.com/v/CVE-2024-13176?s=debian&n=openssl&ns=debian&t=deb&osn=debian&osv=11&vr=%3C1.1.1w-0%2Bdeb11u3
+      Affected range : <1.1.1w-0+deb11u3 
+      Fixed version  : 1.1.1w-0+deb11u3  
+    
+    ✗ MEDIUM CVE-2025-69418
+      https://scout.docker.com/v/CVE-2025-69418?s=debian&n=openssl&ns=debian&t=deb&osn=debian&osv=11&vr=%3C1.1.1w-0%2Bdeb11u5
+      Affected range : <1.1.1w-0+deb11u5 
+      Fixed version  : 1.1.1w-0+deb11u5  
+    
+    ✗ MEDIUM CVE-2023-0215
+      https://scout.docker.com/v/CVE-2023-0215?s=debian&n=openssl&ns=debian&t=deb&osn=debian&osv=11&vr=%3C1.1.1n-0%2Bdeb11u4
+      Affected range : <1.1.1n-0+deb11u4 
+      Fixed version  : 1.1.1n-0+deb11u4  
+    
+    ✗ MEDIUM CVE-2022-4450
+      https://scout.docker.com/v/CVE-2022-4450?s=debian&n=openssl&ns=debian&t=deb&osn=debian&osv=11&vr=%3C1.1.1n-0%2Bdeb11u4
+      Affected range : <1.1.1n-0+deb11u4 
+      Fixed version  : 1.1.1n-0+deb11u4  
+    
+    ✗ MEDIUM CVE-2022-4304
+      https://scout.docker.com/v/CVE-2022-4304?s=debian&n=openssl&ns=debian&t=deb&osn=debian&osv=11&vr=%3C1.1.1n-0%2Bdeb11u4
+      Affected range : <1.1.1n-0+deb11u4 
+      Fixed version  : 1.1.1n-0+deb11u4  
+    
+    ✗ LOW CVE-2025-27587
+      https://scout.docker.com/v/CVE-2025-27587?s=debian&n=openssl&ns=debian&t=deb&osn=debian&osv=11&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+    ✗ UNSPECIFIED CVE-2026-31789
+      https://scout.docker.com/v/CVE-2026-31789?s=debian&n=openssl&ns=debian&t=deb&osn=debian&osv=11&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+    ✗ UNSPECIFIED CVE-2026-28387
+      https://scout.docker.com/v/CVE-2026-28387?s=debian&n=openssl&ns=debian&t=deb&osn=debian&osv=11&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+
+   2C     0H     0M     1L  pcre2 10.36-2
+pkg:deb/debian/pcre2@10.36-2?os_distro=bullseye&os_name=debian&os_version=11
+
+    ✗ CRITICAL CVE-2022-1587
+      https://scout.docker.com/v/CVE-2022-1587?s=debian&n=pcre2&ns=debian&t=deb&osn=debian&osv=11&vr=%3C10.36-2%2Bdeb11u1
+      Affected range : <10.36-2+deb11u1 
+      Fixed version  : 10.36-2+deb11u1  
+    
+    ✗ CRITICAL CVE-2022-1586
+      https://scout.docker.com/v/CVE-2022-1586?s=debian&n=pcre2&ns=debian&t=deb&osn=debian&osv=11&vr=%3C10.36-2%2Bdeb11u1
+      Affected range : <10.36-2+deb11u1 
+      Fixed version  : 10.36-2+deb11u1  
+    
+    ✗ LOW CVE-2022-41409
+      https://scout.docker.com/v/CVE-2022-41409?s=debian&n=pcre2&ns=debian&t=deb&osn=debian&osv=11&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+
+   1C     3H     3M     3L  krb5 1.18.3-6
+pkg:deb/debian/krb5@1.18.3-6?os_distro=bullseye&os_name=debian&os_version=11
+
+    ✗ CRITICAL CVE-2024-37371
+      https://scout.docker.com/v/CVE-2024-37371?s=debian&n=krb5&ns=debian&t=deb&osn=debian&osv=11&vr=%3C1.18.3-6%2Bdeb11u5
+      Affected range : <1.18.3-6+deb11u5 
+      Fixed version  : 1.18.3-6+deb11u5  
+    
+    ✗ HIGH CVE-2022-42898
+      https://scout.docker.com/v/CVE-2022-42898?s=debian&n=krb5&ns=debian&t=deb&osn=debian&osv=11&vr=%3C1.18.3-6%2Bdeb11u3
+      Affected range : <1.18.3-6+deb11u3 
+      Fixed version  : 1.18.3-6+deb11u3  
+    
+    ✗ HIGH CVE-2024-37370
+      https://scout.docker.com/v/CVE-2024-37370?s=debian&n=krb5&ns=debian&t=deb&osn=debian&osv=11&vr=%3C1.18.3-6%2Bdeb11u5
+      Affected range : <1.18.3-6+deb11u5 
+      Fixed version  : 1.18.3-6+deb11u5  
+    
+    ✗ HIGH CVE-2025-24528
+      https://scout.docker.com/v/CVE-2025-24528?s=debian&n=krb5&ns=debian&t=deb&osn=debian&osv=11&vr=%3C1.18.3-6%2Bdeb11u6
+      Affected range : <1.18.3-6+deb11u6 
+      Fixed version  : 1.18.3-6+deb11u6  
+    
+    ✗ MEDIUM CVE-2023-36054
+      https://scout.docker.com/v/CVE-2023-36054?s=debian&n=krb5&ns=debian&t=deb&osn=debian&osv=11&vr=%3C1.18.3-6%2Bdeb11u4
+      Affected range : <1.18.3-6+deb11u4 
+      Fixed version  : 1.18.3-6+deb11u4  
+    
+    ✗ MEDIUM CVE-2021-37750
+      https://scout.docker.com/v/CVE-2021-37750?s=debian&n=krb5&ns=debian&t=deb&osn=debian&osv=11&vr=%3C1.18.3-6%2Bdeb11u1
+      Affected range : <1.18.3-6+deb11u1 
+      Fixed version  : 1.18.3-6+deb11u1  
+    
+    ✗ MEDIUM CVE-2025-3576
+      https://scout.docker.com/v/CVE-2025-3576?s=debian&n=krb5&ns=debian&t=deb&osn=debian&osv=11&vr=%3C1.18.3-6%2Bdeb11u7
+      Affected range : <1.18.3-6+deb11u7 
+      Fixed version  : 1.18.3-6+deb11u7  
+    
+    ✗ LOW CVE-2024-26461
+      https://scout.docker.com/v/CVE-2024-26461?s=debian&n=krb5&ns=debian&t=deb&osn=debian&osv=11&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+    ✗ LOW CVE-2024-26458
+      https://scout.docker.com/v/CVE-2024-26458?s=debian&n=krb5&ns=debian&t=deb&osn=debian&osv=11&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+    ✗ LOW CVE-2018-5709
+      https://scout.docker.com/v/CVE-2018-5709?s=debian&n=krb5&ns=debian&t=deb&osn=debian&osv=11&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+
+   1C     1H     0M     0L  zlib 1:1.2.11.dfsg-2
+pkg:deb/debian/zlib@1%3A1.2.11.dfsg-2?os_distro=bullseye&os_name=debian&os_version=11
+
+    ✗ CRITICAL CVE-2022-37434
+      https://scout.docker.com/v/CVE-2022-37434?s=debian&n=zlib&ns=debian&t=deb&osn=debian&osv=11&vr=%3C1%3A1.2.11.dfsg-2%2Bdeb11u2
+      Affected range : <1:1.2.11.dfsg-2+deb11u2 
+      Fixed version  : 1:1.2.11.dfsg-2+deb11u2  
+    
+    ✗ HIGH CVE-2018-25032
+      https://scout.docker.com/v/CVE-2018-25032?s=debian&n=zlib&ns=debian&t=deb&osn=debian&osv=11&vr=%3C1%3A1.2.11.dfsg-2%2Bdeb11u1
+      Affected range : <1:1.2.11.dfsg-2+deb11u1 
+      Fixed version  : 1:1.2.11.dfsg-2+deb11u1  
+    
+
+   1C     0H     1M     0L  libtasn1-6 4.16.0-2
+pkg:deb/debian/libtasn1-6@4.16.0-2?os_distro=bullseye&os_name=debian&os_version=11
+
+    ✗ CRITICAL CVE-2021-46848
+      https://scout.docker.com/v/CVE-2021-46848?s=debian&n=libtasn1-6&ns=debian&t=deb&osn=debian&osv=11&vr=%3C4.16.0-2%2Bdeb11u1
+      Affected range : <4.16.0-2+deb11u1 
+      Fixed version  : 4.16.0-2+deb11u1  
+    
+    ✗ MEDIUM CVE-2024-12133
+      https://scout.docker.com/v/CVE-2024-12133?s=debian&n=libtasn1-6&ns=debian&t=deb&osn=debian&osv=11&vr=%3C4.16.0-2%2Bdeb11u2
+      Affected range : <4.16.0-2+deb11u2 
+      Fixed version  : 4.16.0-2+deb11u2  
+    
+
+   1C     0H     0M     0L  dpkg 1.20.9
+pkg:deb/debian/dpkg@1.20.9?os_distro=bullseye&os_name=debian&os_version=11
+
+    ✗ CRITICAL CVE-2022-1664
+      https://scout.docker.com/v/CVE-2022-1664?s=debian&n=dpkg&ns=debian&t=deb&osn=debian&osv=11&vr=%3C1.20.10
+      Affected range : <1.20.10 
+      Fixed version  : 1.20.10  
+    
+
+   0C     4H    10M     1L  gnutls28 3.7.1-5
+pkg:deb/debian/gnutls28@3.7.1-5?os_distro=bullseye&os_name=debian&os_version=11
+
+    ✗ HIGH CVE-2024-0567
+      https://scout.docker.com/v/CVE-2024-0567?s=debian&n=gnutls28&ns=debian&t=deb&osn=debian&osv=11&vr=%3C3.7.1-5%2Bdeb11u5
+      Affected range : <3.7.1-5+deb11u5 
+      Fixed version  : 3.7.1-5+deb11u5  
+    
+    ✗ HIGH CVE-2024-0553
+      https://scout.docker.com/v/CVE-2024-0553?s=debian&n=gnutls28&ns=debian&t=deb&osn=debian&osv=11&vr=%3C3.7.1-5%2Bdeb11u5
+      Affected range : <3.7.1-5+deb11u5 
+      Fixed version  : 3.7.1-5+deb11u5  
+    
+    ✗ HIGH CVE-2022-2509
+      https://scout.docker.com/v/CVE-2022-2509?s=debian&n=gnutls28&ns=debian&t=deb&osn=debian&osv=11&vr=%3C3.7.1-5%2Bdeb11u2
+      Affected range : <3.7.1-5+deb11u2 
+      Fixed version  : 3.7.1-5+deb11u2  
+    
+    ✗ HIGH CVE-2023-0361
+      https://scout.docker.com/v/CVE-2023-0361?s=debian&n=gnutls28&ns=debian&t=deb&osn=debian&osv=11&vr=%3C3.7.1-5%2Bdeb11u3
+      Affected range : <3.7.1-5+deb11u3 
+      Fixed version  : 3.7.1-5+deb11u3  
+    
+    ✗ MEDIUM CVE-2025-6395
+      https://scout.docker.com/v/CVE-2025-6395?s=debian&n=gnutls28&ns=debian&t=deb&osn=debian&osv=11&vr=%3C3.7.1-5%2Bdeb11u8
+      Affected range : <3.7.1-5+deb11u8 
+      Fixed version  : 3.7.1-5+deb11u8  
+    
+    ✗ MEDIUM CVE-2025-32990
+      https://scout.docker.com/v/CVE-2025-32990?s=debian&n=gnutls28&ns=debian&t=deb&osn=debian&osv=11&vr=%3C3.7.1-5%2Bdeb11u8
+      Affected range : <3.7.1-5+deb11u8 
+      Fixed version  : 3.7.1-5+deb11u8  
+    
+    ✗ MEDIUM CVE-2025-32988
+      https://scout.docker.com/v/CVE-2025-32988?s=debian&n=gnutls28&ns=debian&t=deb&osn=debian&osv=11&vr=%3C3.7.1-5%2Bdeb11u8
+      Affected range : <3.7.1-5+deb11u8 
+      Fixed version  : 3.7.1-5+deb11u8  
+    
+    ✗ MEDIUM CVE-2021-4209
+      https://scout.docker.com/v/CVE-2021-4209?s=debian&n=gnutls28&ns=debian&t=deb&osn=debian&osv=11&vr=%3C3.7.1-5%2Bdeb11u1
+      Affected range : <3.7.1-5+deb11u1 
+      Fixed version  : 3.7.1-5+deb11u1  
+    
+    ✗ MEDIUM CVE-2023-5981
+      https://scout.docker.com/v/CVE-2023-5981?s=debian&n=gnutls28&ns=debian&t=deb&osn=debian&osv=11&vr=%3C3.7.1-5%2Bdeb11u4
+      Affected range : <3.7.1-5+deb11u4 
+      Fixed version  : 3.7.1-5+deb11u4  
+    
+    ✗ MEDIUM CVE-2025-14831
+      https://scout.docker.com/v/CVE-2025-14831?s=debian&n=gnutls28&ns=debian&t=deb&osn=debian&osv=11&vr=%3C3.7.1-5%2Bdeb11u9
+      Affected range : <3.7.1-5+deb11u9 
+      Fixed version  : 3.7.1-5+deb11u9  
+    
+    ✗ MEDIUM CVE-2024-28834
+      https://scout.docker.com/v/CVE-2024-28834?s=debian&n=gnutls28&ns=debian&t=deb&osn=debian&osv=11&vr=%3C3.7.1-5%2Bdeb11u6
+      Affected range : <3.7.1-5+deb11u6 
+      Fixed version  : 3.7.1-5+deb11u6  
+    
+    ✗ MEDIUM CVE-2024-12243
+      https://scout.docker.com/v/CVE-2024-12243?s=debian&n=gnutls28&ns=debian&t=deb&osn=debian&osv=11&vr=%3C3.7.1-5%2Bdeb11u7
+      Affected range : <3.7.1-5+deb11u7 
+      Fixed version  : 3.7.1-5+deb11u7  
+    
+    ✗ MEDIUM CVE-2024-28835
+      https://scout.docker.com/v/CVE-2024-28835?s=debian&n=gnutls28&ns=debian&t=deb&osn=debian&osv=11&vr=%3C3.7.1-5%2Bdeb11u6
+      Affected range : <3.7.1-5+deb11u6 
+      Fixed version  : 3.7.1-5+deb11u6  
+    
+    ✗ MEDIUM CVE-2025-9820
+      https://scout.docker.com/v/CVE-2025-9820?s=debian&n=gnutls28&ns=debian&t=deb&osn=debian&osv=11&vr=%3C3.7.1-5%2Bdeb11u9
+      Affected range : <3.7.1-5+deb11u9 
+      Fixed version  : 3.7.1-5+deb11u9  
+    
+    ✗ LOW CVE-2011-3389
+      https://scout.docker.com/v/CVE-2011-3389?s=debian&n=gnutls28&ns=debian&t=deb&osn=debian&osv=11&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+
+   0C     3H     0M     2L  perl 5.32.1-4+deb11u1
+pkg:deb/debian/perl@5.32.1-4%2Bdeb11u1?os_distro=bullseye&os_name=debian&os_version=11
+
+    ✗ HIGH CVE-2023-31484
+      https://scout.docker.com/v/CVE-2023-31484?s=debian&n=perl&ns=debian&t=deb&osn=debian&osv=11&vr=%3C5.32.1-4%2Bdeb11u4
+      Affected range : <5.32.1-4+deb11u4 
+      Fixed version  : 5.32.1-4+deb11u4  
+    
+    ✗ HIGH CVE-2020-16156
+      https://scout.docker.com/v/CVE-2020-16156?s=debian&n=perl&ns=debian&t=deb&osn=debian&osv=11&vr=%3C5.32.1-4%2Bdeb11u4
+      Affected range : <5.32.1-4+deb11u4 
+      Fixed version  : 5.32.1-4+deb11u4  
+    
+    ✗ HIGH CVE-2023-47038
+      https://scout.docker.com/v/CVE-2023-47038?s=debian&n=perl&ns=debian&t=deb&osn=debian&osv=11&vr=%3C5.32.1-4%2Bdeb11u3
+      Affected range : <5.32.1-4+deb11u3 
+      Fixed version  : 5.32.1-4+deb11u3  
+    
+    ✗ LOW CVE-2023-31486
+      https://scout.docker.com/v/CVE-2023-31486?s=debian&n=perl&ns=debian&t=deb&osn=debian&osv=11&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+    ✗ LOW CVE-2011-4116
+      https://scout.docker.com/v/CVE-2011-4116?s=debian&n=perl&ns=debian&t=deb&osn=debian&osv=11&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+
+   0C     3H     0M     0L  setuptools 57.4.0
+pkg:pypi/setuptools@57.4.0
+
+    ✗ HIGH CVE-2022-40897 [Inefficient Regular Expression Complexity]
+      https://scout.docker.com/v/CVE-2022-40897?s=github&n=setuptools&t=pypi&vr=%3C65.5.1
+      Affected range : <65.5.1                                                         
+      Fixed version  : 65.5.1                                                          
+      CVSS Score     : 8.7                                                             
+      CVSS Vector    : CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:N/VA:H/SC:L/SI:L/SA:N 
+    
+    ✗ HIGH CVE-2025-47273 [Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')]
+      https://scout.docker.com/v/CVE-2025-47273?s=github&n=setuptools&t=pypi&vr=%3C78.1.1
+      Affected range : <78.1.1                                                             
+      Fixed version  : 78.1.1                                                              
+      CVSS Score     : 7.7                                                                 
+      CVSS Vector    : CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:H/VA:N/SC:N/SI:N/SA:N/E:P 
+    
+    ✗ HIGH CVE-2024-6345 [Improper Control of Generation of Code ('Code Injection')]
+      https://scout.docker.com/v/CVE-2024-6345?s=github&n=setuptools&t=pypi&vr=%3C70.0.0
+      Affected range : <70.0.0                                                         
+      Fixed version  : 70.0.0                                                          
+      CVSS Score     : 7.5                                                             
+      CVSS Vector    : CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:A/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N 
+    
+
+   0C     3H     0M     0L  setuptools 58.0.4
+pkg:pypi/setuptools@58.0.4
+
+    ✗ HIGH CVE-2022-40897 [Inefficient Regular Expression Complexity]
+      https://scout.docker.com/v/CVE-2022-40897?s=github&n=setuptools&t=pypi&vr=%3C65.5.1
+      Affected range : <65.5.1                                                         
+      Fixed version  : 65.5.1                                                          
+      CVSS Score     : 8.7                                                             
+      CVSS Vector    : CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:N/VA:H/SC:L/SI:L/SA:N 
+    
+    ✗ HIGH CVE-2025-47273 [Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')]
+      https://scout.docker.com/v/CVE-2025-47273?s=github&n=setuptools&t=pypi&vr=%3C78.1.1
+      Affected range : <78.1.1                                                             
+      Fixed version  : 78.1.1                                                              
+      CVSS Score     : 7.7                                                                 
+      CVSS Vector    : CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:H/VA:N/SC:N/SI:N/SA:N/E:P 
+    
+    ✗ HIGH CVE-2024-6345 [Improper Control of Generation of Code ('Code Injection')]
+      https://scout.docker.com/v/CVE-2024-6345?s=github&n=setuptools&t=pypi&vr=%3C70.0.0
+      Affected range : <70.0.0                                                         
+      Fixed version  : 70.0.0                                                          
+      CVSS Score     : 7.5                                                             
+      CVSS Vector    : CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:A/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N 
+    
+
+   0C     2H     8M     6L  systemd 247.3-6
+pkg:deb/debian/systemd@247.3-6?os_distro=bullseye&os_name=debian&os_version=11
+
+    ✗ HIGH CVE-2023-50868
+      https://scout.docker.com/v/CVE-2023-50868?s=debian&n=systemd&ns=debian&t=deb&osn=debian&osv=11&vr=%3C247.3-7%2Bdeb11u6
+      Affected range : <247.3-7+deb11u6 
+      Fixed version  : 247.3-7+deb11u6  
+    
+    ✗ HIGH CVE-2023-50387
+      https://scout.docker.com/v/CVE-2023-50387?s=debian&n=systemd&ns=debian&t=deb&osn=debian&osv=11&vr=%3C247.3-7%2Bdeb11u6
+      Affected range : <247.3-7+deb11u6 
+      Fixed version  : 247.3-7+deb11u6  
+    
+    ✗ MEDIUM CVE-2026-40226
+      https://scout.docker.com/v/CVE-2026-40226?s=debian&n=systemd&ns=debian&t=deb&osn=debian&osv=11&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+    ✗ MEDIUM CVE-2026-40225
+      https://scout.docker.com/v/CVE-2026-40225?s=debian&n=systemd&ns=debian&t=deb&osn=debian&osv=11&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+    ✗ MEDIUM CVE-2023-7008
+      https://scout.docker.com/v/CVE-2023-7008?s=debian&n=systemd&ns=debian&t=deb&osn=debian&osv=11&vr=%3C247.3-7%2Bdeb11u6
+      Affected range : <247.3-7+deb11u6 
+      Fixed version  : 247.3-7+deb11u6  
+    
+    ✗ MEDIUM CVE-2026-29111
+      https://scout.docker.com/v/CVE-2026-29111?s=debian&n=systemd&ns=debian&t=deb&osn=debian&osv=11&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+    ✗ MEDIUM CVE-2022-4415
+      https://scout.docker.com/v/CVE-2022-4415?s=debian&n=systemd&ns=debian&t=deb&osn=debian&osv=11&vr=%3C247.3-7%2Bdeb11u2
+      Affected range : <247.3-7+deb11u2 
+      Fixed version  : 247.3-7+deb11u2  
+    
+    ✗ MEDIUM CVE-2022-3821
+      https://scout.docker.com/v/CVE-2022-3821?s=debian&n=systemd&ns=debian&t=deb&osn=debian&osv=11&vr=%3C247.3-7%2Bdeb11u2
+      Affected range : <247.3-7+deb11u2 
+      Fixed version  : 247.3-7+deb11u2  
+    
+    ✗ MEDIUM CVE-2021-3997
+      https://scout.docker.com/v/CVE-2021-3997?s=debian&n=systemd&ns=debian&t=deb&osn=debian&osv=11&vr=%3C247.3-7
+      Affected range : <247.3-7 
+      Fixed version  : 247.3-7  
+    
+    ✗ MEDIUM CVE-2025-4598
+      https://scout.docker.com/v/CVE-2025-4598?s=debian&n=systemd&ns=debian&t=deb&osn=debian&osv=11&vr=%3C247.3-7%2Bdeb11u7
+      Affected range : <247.3-7+deb11u7 
+      Fixed version  : 247.3-7+deb11u7  
+    
+    ✗ LOW CVE-2026-40228
+      https://scout.docker.com/v/CVE-2026-40228?s=debian&n=systemd&ns=debian&t=deb&osn=debian&osv=11&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+    ✗ LOW CVE-2023-31439
+      https://scout.docker.com/v/CVE-2023-31439?s=debian&n=systemd&ns=debian&t=deb&osn=debian&osv=11&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+    ✗ LOW CVE-2023-31438
+      https://scout.docker.com/v/CVE-2023-31438?s=debian&n=systemd&ns=debian&t=deb&osn=debian&osv=11&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+    ✗ LOW CVE-2023-31437
+      https://scout.docker.com/v/CVE-2023-31437?s=debian&n=systemd&ns=debian&t=deb&osn=debian&osv=11&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+    ✗ LOW CVE-2020-13529
+      https://scout.docker.com/v/CVE-2020-13529?s=debian&n=systemd&ns=debian&t=deb&osn=debian&osv=11&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+    ✗ LOW CVE-2013-4392
+      https://scout.docker.com/v/CVE-2013-4392?s=debian&n=systemd&ns=debian&t=deb&osn=debian&osv=11&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+
+   0C     2H     1M     2L  django 4.2.29
+pkg:pypi/django@4.2.29
+
+    ✗ HIGH CVE-2026-3902 [Authentication Bypass by Spoofing]
+      https://scout.docker.com/v/CVE-2026-3902?s=github&n=django&t=pypi&vr=%3E%3D4.2%2C%3C4.2.30
+      Affected range : >=4.2                                        
+                     : <4.2.30                                      
+      Fixed version  : 4.2.30                                       
+      CVSS Score     : 7.5                                          
+      CVSS Vector    : CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N 
+    
+    ✗ HIGH CVE-2026-33034 [Allocation of Resources Without Limits or Throttling]
+      https://scout.docker.com/v/CVE-2026-33034?s=github&n=django&t=pypi&vr=%3E%3D4.2%2C%3C4.2.30
+      Affected range : >=4.2                                        
+                     : <4.2.30                                      
+      Fixed version  : 4.2.30                                       
+      CVSS Score     : 7.5                                          
+      CVSS Vector    : CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H 
+    
+    ✗ MEDIUM CVE-2026-33033 [Inefficient Algorithmic Complexity]
+      https://scout.docker.com/v/CVE-2026-33033?s=github&n=django&t=pypi&vr=%3E%3D4.2%2C%3C4.2.30
+      Affected range : >=4.2                                        
+                     : <4.2.30                                      
+      Fixed version  : 4.2.30                                       
+      CVSS Score     : 6.5                                          
+      CVSS Vector    : CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H 
+    
+    ✗ LOW CVE-2026-4292 [Missing Authorization]
+      https://scout.docker.com/v/CVE-2026-4292?s=github&n=django&t=pypi&vr=%3E%3D4.2%2C%3C4.2.30
+      Affected range : >=4.2                                        
+                     : <4.2.30                                      
+      Fixed version  : 4.2.30                                       
+      CVSS Score     : 2.7                                          
+      CVSS Vector    : CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:L/A:N 
+    
+    ✗ LOW CVE-2026-4277 [Missing Authorization]
+      https://scout.docker.com/v/CVE-2026-4277?s=github&n=django&t=pypi&vr=%3E%3D4.2%2C%3C4.2.30
+      Affected range : >=4.2                                                           
+                     : <4.2.30                                                         
+      Fixed version  : 4.2.30                                                          
+      CVSS Score     : 2.3                                                             
+      CVSS Vector    : CVSS:4.0/AV:N/AC:L/AT:P/PR:L/UI:N/VC:N/VI:L/VA:N/SC:N/SI:N/SA:N 
+    
+
+   0C     2H     0M     0L  ncurses 6.2+20201114-2
+pkg:deb/debian/ncurses@6.2%2B20201114-2?os_distro=bullseye&os_name=debian&os_version=11
+
+    ✗ HIGH CVE-2023-29491
+      https://scout.docker.com/v/CVE-2023-29491?s=debian&n=ncurses&ns=debian&t=deb&osn=debian&osv=11&vr=%3C6.2%2B20201114-2%2Bdeb11u2
+      Affected range : <6.2+20201114-2+deb11u2 
+      Fixed version  : 6.2+20201114-2+deb11u2  
+    
+    ✗ HIGH CVE-2022-29458
+      https://scout.docker.com/v/CVE-2022-29458?s=debian&n=ncurses&ns=debian&t=deb&osn=debian&osv=11&vr=%3C6.2%2B20201114-2%2Bdeb11u1
+      Affected range : <6.2+20201114-2+deb11u1 
+      Fixed version  : 6.2+20201114-2+deb11u1  
+    
+
+   0C     1H     1M     1L  gnupg2 2.2.27-2
+pkg:deb/debian/gnupg2@2.2.27-2?os_distro=bullseye&os_name=debian&os_version=11
+
+    ✗ HIGH CVE-2025-68973
+      https://scout.docker.com/v/CVE-2025-68973?s=debian&n=gnupg2&ns=debian&t=deb&osn=debian&osv=11&vr=%3C2.2.27-2%2Bdeb11u3
+      Affected range : <2.2.27-2+deb11u3 
+      Fixed version  : 2.2.27-2+deb11u3  
+    
+    ✗ MEDIUM CVE-2022-34903
+      https://scout.docker.com/v/CVE-2022-34903?s=debian&n=gnupg2&ns=debian&t=deb&osn=debian&osv=11&vr=%3C2.2.27-2%2Bdeb11u2
+      Affected range : <2.2.27-2+deb11u2 
+      Fixed version  : 2.2.27-2+deb11u2  
+    
+    ✗ LOW CVE-2022-3219
+      https://scout.docker.com/v/CVE-2022-3219?s=debian&n=gnupg2&ns=debian&t=deb&osn=debian&osv=11&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+
+   0C     1H     1M     0L  pam 1.4.0-9
+pkg:deb/debian/pam@1.4.0-9?os_distro=bullseye&os_name=debian&os_version=11
+
+    ✗ HIGH CVE-2025-6020
+      https://scout.docker.com/v/CVE-2025-6020?s=debian&n=pam&ns=debian&t=deb&osn=debian&osv=11&vr=%3C1.4.0-9%2Bdeb11u2
+      Affected range : <1.4.0-9+deb11u2 
+      Fixed version  : 1.4.0-9+deb11u2  
+    
+    ✗ MEDIUM CVE-2024-22365
+      https://scout.docker.com/v/CVE-2024-22365?s=debian&n=pam&ns=debian&t=deb&osn=debian&osv=11&vr=%3C1.4.0-9%2Bdeb11u2
+      Affected range : <1.4.0-9+deb11u2 
+      Fixed version  : 1.4.0-9+deb11u2  
+    
+
+   0C     1H     0M     0L  e2fsprogs 1.46.2-2
+pkg:deb/debian/e2fsprogs@1.46.2-2?os_distro=bullseye&os_name=debian&os_version=11
+
+    ✗ HIGH CVE-2022-1304
+      https://scout.docker.com/v/CVE-2022-1304?s=debian&n=e2fsprogs&ns=debian&t=deb&osn=debian&osv=11&vr=%3C1.46.2-2%2Bdeb11u1
+      Affected range : <1.46.2-2+deb11u1 
+      Fixed version  : 1.46.2-2+deb11u1  
+    
+
+   0C     1H     0M     0L  libtirpc 1.3.1-1
+pkg:deb/debian/libtirpc@1.3.1-1?os_distro=bullseye&os_name=debian&os_version=11
+
+    ✗ HIGH CVE-2021-46828
+      https://scout.docker.com/v/CVE-2021-46828?s=debian&n=libtirpc&ns=debian&t=deb&osn=debian&osv=11&vr=%3C1.3.1-1%2Bdeb11u1
+      Affected range : <1.3.1-1+deb11u1 
+      Fixed version  : 1.3.1-1+deb11u1  
+    
+
+   0C     1H     0M     0L  gmp 2:6.2.1+dfsg-1
+pkg:deb/debian/gmp@2%3A6.2.1%2Bdfsg-1?os_distro=bullseye&os_name=debian&os_version=11
+
+    ✗ HIGH CVE-2021-43618
+      https://scout.docker.com/v/CVE-2021-43618?s=debian&n=gmp&ns=debian&t=deb&osn=debian&osv=11&vr=%3C2%3A6.2.1%2Bdfsg-1%2Bdeb11u1
+      Affected range : <2:6.2.1+dfsg-1+deb11u1 
+      Fixed version  : 2:6.2.1+dfsg-1+deb11u1  
+    
+
+   0C     1H     0M     0L  xz-utils 5.2.5-2
+pkg:deb/debian/xz-utils@5.2.5-2?os_distro=bullseye&os_name=debian&os_version=11
+
+    ✗ HIGH CVE-2022-1271
+      https://scout.docker.com/v/CVE-2022-1271?s=debian&n=xz-utils&ns=debian&t=deb&osn=debian&osv=11&vr=%3C5.2.5-2.1%7Edeb11u1
+      Affected range : <5.2.5-2.1~deb11u1 
+      Fixed version  : 5.2.5-2.1~deb11u1  
+    
+
+   0C     1H     0M     0L  wheel 0.37.0
+pkg:pypi/wheel@0.37.0
+
+    ✗ HIGH CVE-2022-40898 [Inefficient Regular Expression Complexity]
+      https://scout.docker.com/v/CVE-2022-40898?s=github&n=wheel&t=pypi&vr=%3C0.38.1
+      Affected range : <0.38.1                                      
+      Fixed version  : 0.38.1                                       
+      CVSS Score     : 7.5                                          
+      CVSS Vector    : CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H 
+    
+
+   0C     1H     0M     0L  gzip 1.10-4
+pkg:deb/debian/gzip@1.10-4?os_distro=bullseye&os_name=debian&os_version=11
+
+    ✗ HIGH CVE-2022-1271
+      https://scout.docker.com/v/CVE-2022-1271?s=debian&n=gzip&ns=debian&t=deb&osn=debian&osv=11&vr=%3C1.10-4%2Bdeb11u1
+      Affected range : <1.10-4+deb11u1 
+      Fixed version  : 1.10-4+deb11u1  
+    
+
+   0C     0H     2M     3L  util-linux 2.36.1-8
+pkg:deb/debian/util-linux@2.36.1-8?os_distro=bullseye&os_name=debian&os_version=11
+
+    ✗ MEDIUM CVE-2021-3996
+      https://scout.docker.com/v/CVE-2021-3996?s=debian&n=util-linux&ns=debian&t=deb&osn=debian&osv=11&vr=%3C2.36.1-8%2Bdeb11u1
+      Affected range : <2.36.1-8+deb11u1 
+      Fixed version  : 2.36.1-8+deb11u1  
+    
+    ✗ MEDIUM CVE-2021-3995
+      https://scout.docker.com/v/CVE-2021-3995?s=debian&n=util-linux&ns=debian&t=deb&osn=debian&osv=11&vr=%3C2.36.1-8%2Bdeb11u1
+      Affected range : <2.36.1-8+deb11u1 
+      Fixed version  : 2.36.1-8+deb11u1  
+    
+    ✗ LOW CVE-2024-28085
+      https://scout.docker.com/v/CVE-2024-28085?s=debian&n=util-linux&ns=debian&t=deb&osn=debian&osv=11&vr=%3C2.36.1-8%2Bdeb11u2
+      Affected range : <2.36.1-8+deb11u2 
+      Fixed version  : 2.36.1-8+deb11u2  
+    
+    ✗ LOW CVE-2025-14104
+      https://scout.docker.com/v/CVE-2025-14104?s=debian&n=util-linux&ns=debian&t=deb&osn=debian&osv=11&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+    ✗ LOW CVE-2022-0563
+      https://scout.docker.com/v/CVE-2022-0563?s=debian&n=util-linux&ns=debian&t=deb&osn=debian&osv=11&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+
+   0C     0H     2M     2L  tar 1.34+dfsg-1
+pkg:deb/debian/tar@1.34%2Bdfsg-1?os_distro=bullseye&os_name=debian&os_version=11
+
+    ✗ MEDIUM CVE-2023-39804
+      https://scout.docker.com/v/CVE-2023-39804?s=debian&n=tar&ns=debian&t=deb&osn=debian&osv=11&vr=%3C1.34%2Bdfsg-1%2Bdeb11u1
+      Affected range : <1.34+dfsg-1+deb11u1 
+      Fixed version  : 1.34+dfsg-1+deb11u1  
+    
+    ✗ MEDIUM CVE-2026-5704
+      https://scout.docker.com/v/CVE-2026-5704?s=debian&n=tar&ns=debian&t=deb&osn=debian&osv=11&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+    ✗ LOW CVE-2022-48303
+      https://scout.docker.com/v/CVE-2022-48303?s=debian&n=tar&ns=debian&t=deb&osn=debian&osv=11&vr=%3C1.34%2Bdfsg-1%2Bdeb11u1
+      Affected range : <1.34+dfsg-1+deb11u1 
+      Fixed version  : 1.34+dfsg-1+deb11u1  
+    
+    ✗ LOW CVE-2005-2541
+      https://scout.docker.com/v/CVE-2005-2541?s=debian&n=tar&ns=debian&t=deb&osn=debian&osv=11&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+
+   0C     0H     2M     1L  pip 21.2.4
+pkg:pypi/pip@21.2.4
+
+    ✗ MEDIUM CVE-2023-5752 [Improper Neutralization of Special Elements used in a Command ('Command Injection')]
+      https://scout.docker.com/v/CVE-2023-5752?s=github&n=pip&t=pypi&vr=%3C23.3
+      Affected range : <23.3                                                           
+      Fixed version  : 23.3                                                            
+      CVSS Score     : 6.8                                                             
+      CVSS Vector    : CVSS:4.0/AV:L/AC:L/AT:N/PR:L/UI:N/VC:N/VI:H/VA:N/SC:N/SI:N/SA:N 
+    
+    ✗ MEDIUM CVE-2025-8869 [Improper Link Resolution Before File Access ('Link Following')]
+      https://scout.docker.com/v/CVE-2025-8869?s=github&n=pip&t=pypi&vr=%3C%3D25.2
+      Affected range : <=25.2                                                          
+      Fixed version  : 25.3                                                            
+      CVSS Score     : 5.9                                                             
+      CVSS Vector    : CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:A/VC:N/VI:H/VA:N/SC:N/SI:N/SA:N 
+    
+    ✗ LOW CVE-2026-1703 [Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')]
+      https://scout.docker.com/v/CVE-2026-1703?s=github&n=pip&t=pypi&vr=%3C26.0
+      Affected range : <26.0                                                           
+      Fixed version  : 26.0                                                            
+      CVSS Score     : 2.0                                                             
+      CVSS Vector    : CVSS:4.0/AV:N/AC:L/AT:P/PR:L/UI:A/VC:N/VI:L/VA:N/SC:N/SI:N/SA:N 
+    
+
+   0C     0H     1M     6L  sqlite3 3.34.1-3
+pkg:deb/debian/sqlite3@3.34.1-3?os_distro=bullseye&os_name=debian&os_version=11
+
+    ✗ MEDIUM CVE-2023-7104
+      https://scout.docker.com/v/CVE-2023-7104?s=debian&n=sqlite3&ns=debian&t=deb&osn=debian&osv=11&vr=%3C3.34.1-3%2Bdeb11u1
+      Affected range : <3.34.1-3+deb11u1 
+      Fixed version  : 3.34.1-3+deb11u1  
+    
+    ✗ LOW CVE-2025-70873
+      https://scout.docker.com/v/CVE-2025-70873?s=debian&n=sqlite3&ns=debian&t=deb&osn=debian&osv=11&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+    ✗ LOW CVE-2025-52099
+      https://scout.docker.com/v/CVE-2025-52099?s=debian&n=sqlite3&ns=debian&t=deb&osn=debian&osv=11&vr=%3E%3D3.34.1-3
+      Affected range : >=3.34.1-3 
+      Fixed version  : not fixed  
+    
+    ✗ LOW CVE-2025-29088
+      https://scout.docker.com/v/CVE-2025-29088?s=debian&n=sqlite3&ns=debian&t=deb&osn=debian&osv=11&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+    ✗ LOW CVE-2022-35737
+      https://scout.docker.com/v/CVE-2022-35737?s=debian&n=sqlite3&ns=debian&t=deb&osn=debian&osv=11&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+    ✗ LOW CVE-2021-45346
+      https://scout.docker.com/v/CVE-2021-45346?s=debian&n=sqlite3&ns=debian&t=deb&osn=debian&osv=11&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+    ✗ LOW CVE-2021-36690
+      https://scout.docker.com/v/CVE-2021-36690?s=debian&n=sqlite3&ns=debian&t=deb&osn=debian&osv=11&vr=%3C3.34.1-3%2Bdeb11u1
+      Affected range : <3.34.1-3+deb11u1 
+      Fixed version  : 3.34.1-3+deb11u1  
+    
+
+   0C     0H     1M     3L  shadow 1:4.8.1-1
+pkg:deb/debian/shadow@1%3A4.8.1-1?os_distro=bullseye&os_name=debian&os_version=11
+
+    ✗ MEDIUM CVE-2023-4641
+      https://scout.docker.com/v/CVE-2023-4641?s=debian&n=shadow&ns=debian&t=deb&osn=debian&osv=11&vr=%3C1%3A4.8.1-1%2Bdeb11u1
+      Affected range : <1:4.8.1-1+deb11u1 
+      Fixed version  : 1:4.8.1-1+deb11u1  
+    
+    ✗ LOW CVE-2023-29383
+      https://scout.docker.com/v/CVE-2023-29383?s=debian&n=shadow&ns=debian&t=deb&osn=debian&osv=11&vr=%3C1%3A4.8.1-1%2Bdeb11u1
+      Affected range : <1:4.8.1-1+deb11u1 
+      Fixed version  : 1:4.8.1-1+deb11u1  
+    
+    ✗ LOW CVE-2013-4235
+      https://scout.docker.com/v/CVE-2013-4235?s=debian&n=shadow&ns=debian&t=deb&osn=debian&osv=11&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+    ✗ LOW CVE-2007-5686
+      https://scout.docker.com/v/CVE-2007-5686?s=debian&n=shadow&ns=debian&t=deb&osn=debian&osv=11&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+
+   0C     0H     0M     5L  pcre3 2:8.39-13
+pkg:deb/debian/pcre3@2%3A8.39-13?os_distro=bullseye&os_name=debian&os_version=11
+
+    ✗ LOW CVE-2019-20838
+      https://scout.docker.com/v/CVE-2019-20838?s=debian&n=pcre3&ns=debian&t=deb&osn=debian&osv=11&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+    ✗ LOW CVE-2017-7246
+      https://scout.docker.com/v/CVE-2017-7246?s=debian&n=pcre3&ns=debian&t=deb&osn=debian&osv=11&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+    ✗ LOW CVE-2017-7245
+      https://scout.docker.com/v/CVE-2017-7245?s=debian&n=pcre3&ns=debian&t=deb&osn=debian&osv=11&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+    ✗ LOW CVE-2017-16231
+      https://scout.docker.com/v/CVE-2017-16231?s=debian&n=pcre3&ns=debian&t=deb&osn=debian&osv=11&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+    ✗ LOW CVE-2017-11164
+      https://scout.docker.com/v/CVE-2017-11164?s=debian&n=pcre3&ns=debian&t=deb&osn=debian&osv=11&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+
+   0C     0H     0M     4L  libsepol 3.1-1
+pkg:deb/debian/libsepol@3.1-1?os_distro=bullseye&os_name=debian&os_version=11
+
+    ✗ LOW CVE-2021-36087
+      https://scout.docker.com/v/CVE-2021-36087?s=debian&n=libsepol&ns=debian&t=deb&osn=debian&osv=11&vr=%3C3.1-1%2Bdeb11u1
+      Affected range : <3.1-1+deb11u1 
+      Fixed version  : 3.1-1+deb11u1  
+    
+    ✗ LOW CVE-2021-36086
+      https://scout.docker.com/v/CVE-2021-36086?s=debian&n=libsepol&ns=debian&t=deb&osn=debian&osv=11&vr=%3C3.1-1%2Bdeb11u1
+      Affected range : <3.1-1+deb11u1 
+      Fixed version  : 3.1-1+deb11u1  
+    
+    ✗ LOW CVE-2021-36085
+      https://scout.docker.com/v/CVE-2021-36085?s=debian&n=libsepol&ns=debian&t=deb&osn=debian&osv=11&vr=%3C3.1-1%2Bdeb11u1
+      Affected range : <3.1-1+deb11u1 
+      Fixed version  : 3.1-1+deb11u1  
+    
+    ✗ LOW CVE-2021-36084
+      https://scout.docker.com/v/CVE-2021-36084?s=debian&n=libsepol&ns=debian&t=deb&osn=debian&osv=11&vr=%3C3.1-1%2Bdeb11u1
+      Affected range : <3.1-1+deb11u1 
+      Fixed version  : 3.1-1+deb11u1  
+    
+
+   0C     0H     0M     2L  libgcrypt20 1.8.7-6
+pkg:deb/debian/libgcrypt20@1.8.7-6?os_distro=bullseye&os_name=debian&os_version=11
+
+    ✗ LOW CVE-2024-2236
+      https://scout.docker.com/v/CVE-2024-2236?s=debian&n=libgcrypt20&ns=debian&t=deb&osn=debian&osv=11&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+    ✗ LOW CVE-2018-6829
+      https://scout.docker.com/v/CVE-2018-6829?s=debian&n=libgcrypt20&ns=debian&t=deb&osn=debian&osv=11&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+
+   0C     0H     0M     2L  coreutils 8.32-4
+pkg:deb/debian/coreutils@8.32-4?os_distro=bullseye&os_name=debian&os_version=11
+
+    ✗ LOW CVE-2025-5278
+      https://scout.docker.com/v/CVE-2025-5278?s=debian&n=coreutils&ns=debian&t=deb&osn=debian&osv=11&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+    ✗ LOW CVE-2017-18018
+      https://scout.docker.com/v/CVE-2017-18018?s=debian&n=coreutils&ns=debian&t=deb&osn=debian&osv=11&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+
+   0C     0H     0M     1L  gcc-10 10.2.1-6
+pkg:deb/debian/gcc-10@10.2.1-6?os_distro=bullseye&os_name=debian&os_version=11
+
+    ✗ LOW CVE-2023-4039
+      https://scout.docker.com/v/CVE-2023-4039?s=debian&n=gcc-10&ns=debian&t=deb&osn=debian&osv=11&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+
+   0C     0H     0M     1L  apt 2.2.4
+pkg:deb/debian/apt@2.2.4?os_distro=bullseye&os_name=debian&os_version=11
+
+    ✗ LOW CVE-2011-3374
+      https://scout.docker.com/v/CVE-2011-3374?s=debian&n=apt&ns=debian&t=deb&osn=debian&osv=11&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+
+   0C     0H     0M     1L  gcc-9 9.3.0-22
+pkg:deb/debian/gcc-9@9.3.0-22?os_distro=bullseye&os_name=debian&os_version=11
+
+    ✗ LOW CVE-2023-4039
+      https://scout.docker.com/v/CVE-2023-4039?s=debian&n=gcc-9&ns=debian&t=deb&osn=debian&osv=11&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+
+   0C     0H     0M     0L     1?  lz4 1.9.3-2
+pkg:deb/debian/lz4@1.9.3-2?os_distro=bullseye&os_name=debian&os_version=11
+
+    ✗ UNSPECIFIED CVE-2025-62813
+      https://scout.docker.com/v/CVE-2025-62813?s=debian&n=lz4&ns=debian&t=deb&osn=debian&osv=11&vr=%3E%3D1.9.3-2
+      Affected range : >=1.9.3-2 
+      Fixed version  : not fixed 
+    
+
+
+202 vulnerabilities found in 36 packages
+  CRITICAL     20 
+  HIGH         64 
+  MEDIUM       56 
+  LOW          59 
+  UNSPECIFIED  3  
+

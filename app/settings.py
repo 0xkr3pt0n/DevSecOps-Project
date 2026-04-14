@@ -12,7 +12,7 @@ API_KEY = os.environ.get("API_KEY", "hardcoded-api-key-12345")
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
-
+SECRET_KEY="A191210ABAO082191203123"
 ALLOWED_HOSTS = ['*']   # Host header injection vulnerability
 
 INSTALLED_APPS = [
